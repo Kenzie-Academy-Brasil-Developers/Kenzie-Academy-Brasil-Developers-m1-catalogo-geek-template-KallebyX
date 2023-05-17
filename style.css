@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#menu {
+    display: flex;
+}
+
+#logo {
+    display: block;
+    justify-content: right;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFF;
+}
+
+#button1 {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    border: #0A99FE;
+    border-radius: 8px;
+    color: #0A99FE;
+    background-color: rgb(10, 153, 254, 0.10);
+    padding-left: 10px;
+}
+
+#button2 {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    border: #0A99FE;
+    border-radius: 8px;
+    color: #0A99FE;
+    background-color: rgb(10, 153, 254, 0.10);
+    padding-left: 10px;
+}
+
+
+#button1:hover {
+    background-color: #0A99FE;
+    color: white;
+}
+
+#button2:hover {
+    background-color: #0A99FE;
+    color: white;
+}
+
+.flex-container h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #1B1B1B;
+}
+
+.flex-container p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #868383;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    overflow-x: auto;
+}
+
+.flex-container li {
+    width: 207px;
+    height: 275px;
+    margin-right: 10px;
+    border: 0.1px;
+    border-radius: 15px;
+    background-color: #868383a6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container li img {
+    margin: auto;
+    width: 190px;
+    height: 150px;
+    justify-items: center;
+    border-radius: 15px;
+}
+
+.flex-container li p:first-child {
+    display: flex;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.flex-container li p:last-child {
+    display: flex;
+    margin-top: 10px;
+    align-self: center;
+}
